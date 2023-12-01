@@ -1,0 +1,29 @@
+.converter {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.converter__box {
+  display: flex;
+  height: 32px;
+}
+
+.converter__box:first-of-type {
+  margin-right: 20px;
+}
+
+.converter__input {
+  height: 100%;
+  padding-left: 10px;
+  border-radius: 15px 0 0 15px;
+  border: 1px solid #000;
+  outline: none;
+  border-right: none;
+}
+
+.converter__select {
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  border: 1px solid #000;
+}
